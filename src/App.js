@@ -13,7 +13,7 @@ import Invoices from "./pages/invoices";
 import Contacts from "./pages/contacts";
 import Form from "./pages/form";
 import Calendar from "./pages/calendar";
-// import FAQ from "./pages/faq";
+import FAQ from "./pages/faq";
 // import Bar from "./pages/bar";
 // import Pie from "./pages/pie";
 // import Line from "./pages/line";
@@ -37,7 +37,7 @@ function App() {
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
-              {/* <Route path="/faq" element={<FAQ />} /> */}
+              <Route path="/faq" element={<FAQ />} />
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
@@ -52,4 +52,4 @@ function App() {
 
 export default App;
 
-// Time 2:21:46 / 4:04:24
+// Time 2:48:46 / 4:04:24
